@@ -1,0 +1,11 @@
+[
+    {
+        "categoria": "Arte y literatura",
+        "pregunta": "¿Quién pintó la mona Lisa?",
+        "respuesta": "Leonardo da Vinci",
+        "incorrecta": "Picasso",
+        "incorrecta2": "Miguel Angel",
+        "incorrecta3": "Monet"
+        
+    }
+]
