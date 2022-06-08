@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    text-align: center;
+    background-image: linear-gradient(120deg, rgba(126, 142, 143, 0.432) 0%, rgba(117, 126, 120, 0.74) 100%), 
+    url(../images/principal.jpg);
+    background-repeat:repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.title{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 40);
+    text-align: center;
+    background: rebeccapurple;
+    padding: 5px 8px;
+    min-height: 43px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-weight: 900;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing:border-box;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.container {
+    width: 80vw;
+    height: 100%;
+    padding: 0 20px;
+    display: inline-block;
+    flex-direction: column;  
+    border: 1px solid purple;
+    background-image: linear-gradient(120deg, rgba(95, 98, 250, 0.5) 0%, rgba(247, 54, 231, 0.5) 100%), 
+    url(../images/espacio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 40px;
+    box-shadow: 0 8px 40px 6px #2c2929;
+}
+
+.encabezado {
+    margin: 15px auto;
+    background-color: hsla(0,0%,100%,.35);
+    border-radius: 7%;
+    min-width: 300px;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 0 8px 40px 6px #2c2929;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.category {
+    opacity: 0.6;
+    text-align: left;
+}
+
+.imagen{
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+}
+.btn {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+    min-height: 25px;
+    padding: 10px;
+    margin: 20px auto;
+    word-break: break-word;
+    align-items: center;
+    border-radius: 25%;
+    background-color: rgba(46, 191, 248, 0.932);
+}
+.btn:hover {
+    background-color:white;
+    cursor: pointer;
+    transform: scale(1.10);
+}  
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    width: 25px;
+    height: 20px;
+    color: #ffff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 20px;
+    margin-right: 5px;
+  }
+.score{
+    padding:10px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.question {
+    padding: 20px 0;
+}

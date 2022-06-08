@@ -1,0 +1,17 @@
+.title{
+    font-size: 48px;
+}
+
+@media (max-width: 1440px) {
+    .title{
+        font-size: 35px;
+    }
+
+    .buttons {
+        max-width: 800px;
+    }
+
+    .btn {
+        max-width: 280px;
+    }
+}

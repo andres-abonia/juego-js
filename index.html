@@ -5,40 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego de Preguntas</title>
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./js/function.js">
+    <link rel="stylesheet" href="./css/estilos-m.css">
+    <link rel="stylesheet" href="./css/estilos-d.css" media="screen and (min-width: 1024px)">
+    <audio id="audio" src="./audios/correcto1.mp3"></audio>
+    <audio id="i_audio" src="./audios/incorrecto.mp3"></audio>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
+    <script src="base-preguntas.js"></script>
+   
 </head>
 <body>
-    <header class="container-header">
-        <h1 class="title">Reta tus conociemientos en programación</h1>
-    </header>
-    <main>
+    <main class="content-main">
+        <header class="container-header">
+            <h1 class="title">Reta tus conociemientos en programación</h1>
+        </header>
         <div class="container">
+            <div class="help" id="help"></div>
             <div class="encabezado">
-                <div class="category">
-                    Categoria
-                </div>
-                <div class="question">
-                    Pregunta
-                </div>
-                <img src="" class="image">
+              <div class="category" id="category"></div>
+              <!-- <div><i class="bi bi-lightbulb"></i></div> -->
+              <div class="text">
+                  <p> <b> Pregunta Número:</b> <span class="number" id="number"></span></p>     
+              </div>
+              <div class="question" id="question"></div>
+              <img src="./images/asistente-robot.gif" class="imagen" id="imagen">
             </div>
-            
-            <div class="container-answer">
-                <div class="btn" id="btn1">
-                    OPCION 1
-                </div>
-                <div class="btn" id="btn2">
-                    OPCION 2
-                </div>
-                <div class="btn" id="btn3">
-                    OPCION 3
-                </div>
-                <div class="btn" id="btn4">
-                    OPCION 4
-                </div>
+            <div class="buttons">
+                <div class="btn" id="btn1" onclick="select_btn(0)"></div>
+                <div class="btn" id="btn2" onclick="select_btn(1)"></div>
+                <div class="btn" id="btn3" onclick="select_btn(2)"></div>
+                <div class="btn" id="btn4" onclick="select_btn(3)"></div>
             </div>
         </div>
+    <audio src=""></audio>    
+    <script src="js/function.js"></script>
+   
     </main>
+
 </body>
 </html>
